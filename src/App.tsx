@@ -1,17 +1,15 @@
 import React from 'react';
 import './App.css';
-import { GroupPicker } from './GroupPicker';
-import { Group } from './Group';
-
-let groups: Array<Group> = require('./groups.json').groups;
+import Footer from './Footer';
+import { Questions } from './Questions';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <GroupPicker groupPicker={(): Group => {
-          return groups[Math.floor(Math.random() * groups.length)]
-        }}/>
+        <h3>Am I agile?</h3>
+        <Questions />
+        <Footer />
       </header>
     </div>
   );
