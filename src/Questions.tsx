@@ -13,8 +13,8 @@ function all<T extends {}>(f: T): boolean {
 }
 
 const questionsAsked: QuestionsAsked = {
-  1: 'Do I talk to the customer daily or weekly?',
-  2: 'Do I deliver value to the customer daily or weekly?',
+  1: 'Do I frequently talk to the customer?',
+  2: 'Do I frequently deliver value to the customer?',
   3: 'Do I regularly get together with the team and find ways to improve value and the flow of work?',
   4: 'Do I welcome changing requirements?',
   5: 'Is the team self-organised? Is there a culture of trust?',
